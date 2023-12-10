@@ -1,0 +1,401 @@
+
+run time: 2023_12_10_19_27_31
+Commencing training of A2C_PyTorch on HalfCheetah-v4 for 10000000 timesteps.
+Results will be saved to: runs\A2C_PyTorch\2023_12_10_19_27_31
+  0%|          | 0/125000 [00:00<?, ?it/s]
+Commencing training of A2C_PyTorch on HalfCheetah-v4 for 10000000 timesteps.
+Results will be saved to: runs\A2C_PyTorch\2023_12_10_19_27_31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 21%|██        | 26387/125000 [08:58<33:32, 48.99it/s]
+c:\Users\nkvch\studia\USD\venv\Lib\site-packages\gymnasium\wrappers\monitoring\video_recorder.py:178: UserWarning: [33mWARN: Unable to save last video! Did you call close()?
+  logger.warn("Unable to save last video! Did you call close()?")
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+Exception ignored in: <function VectorEnv.__del__ at 0x0000023E3101F6A0>
+Traceback (most recent call last):
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\gymnasium\vector\vector_env.py", line 330, in __del__
+    self.close()
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\gymnasium\vector\vector_env.py", line 272, in close
+    self.close_extras(**kwargs)
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\gymnasium\vector\sync_vector_env.py", line 217, in close_extras
+    [env.close() for env in self.envs]
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\gymnasium\vector\sync_vector_env.py", line 217, in <listcomp>
+    [env.close() for env in self.envs]
+     ^^^^^^^^^^^
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\gymnasium\core.py", line 475, in close
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\gymnasium\core.py", line 475, in close
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\gymnasium\core.py", line 475, in close
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  [Previous line repeated 4 more times]
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\gymnasium\wrappers\record_video.py", line 228, in close
+    self.close_video_recorder()
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\gymnasium\wrappers\record_video.py", line 204, in close_video_recorder
+    self.video_recorder.close()
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\gymnasium\wrappers\monitoring\video_recorder.py", line 157, in close
+    clip.write_videofile(self.path, logger=moviepy_logger)
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\decorator.py", line 232, in fun
+    for i, extra in enumerate(extras):
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+           ^^^^^^^^^^^^^^^^
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\decorator.py", line 232, in fun
+    for i, extra in enumerate(extras):
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\moviepy\decorators.py", line 135, in use_clip_fps_by_default
+    return f(clip, *new_a, **new_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\decorator.py", line 232, in fun
+    for i, extra in enumerate(extras):
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\moviepy\decorators.py", line 22, in convert_masks_to_RGB
+    return f(clip, *a, **k)
+           ^^^^^^^^^^^^^^^^
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\moviepy\video\VideoClip.py", line 300, in write_videofile
+    ffmpeg_write_video(self, filename, fps, codec,
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\moviepy\video\io\ffmpeg_writer.py", line 213, in ffmpeg_write_video
+    with FFMPEG_VideoWriter(filename, clip.size, fps, codec = codec,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\moviepy\video\io\ffmpeg_writer.py", line 88, in __init__
+    '-r', '%.02f' % fps,
+          ~~~~~~~~^~~~~
+TypeError: must be real number, not NoneType
+c:\Users\nkvch\studia\USD\venv\Lib\site-packages\glfw\__init__.py:916: GLFWError: (65537) b'The GLFW library is not initialized'
+  warnings.warn(message, GLFWError)
+Exception ignored in: <function VectorEnv.__del__ at 0x0000023E3101F6A0>
+Traceback (most recent call last):
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\gymnasium\vector\vector_env.py", line 330, in __del__
+    self.close()
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\gymnasium\vector\vector_env.py", line 272, in close
+    self.close_extras(**kwargs)
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\gymnasium\vector\sync_vector_env.py", line 217, in close_extras
+    [env.close() for env in self.envs]
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\gymnasium\vector\sync_vector_env.py", line 217, in <listcomp>
+    [env.close() for env in self.envs]
+     ^^^^^^^^^^^
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\gymnasium\core.py", line 475, in close
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\gymnasium\core.py", line 475, in close
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\gymnasium\core.py", line 475, in close
+    return self.env.close()
+           ^^^^^^^^^^^^^^^^
+  [Previous line repeated 4 more times]
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\gymnasium\wrappers\record_video.py", line 228, in close
+    self.close_video_recorder()
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\gymnasium\wrappers\record_video.py", line 204, in close_video_recorder
+    self.video_recorder.close()
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\gymnasium\wrappers\monitoring\video_recorder.py", line 157, in close
+    clip.write_videofile(self.path, logger=moviepy_logger)
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\decorator.py", line 232, in fun
+    for i, extra in enumerate(extras):
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\moviepy\decorators.py", line 54, in requires_duration
+    return f(clip, *a, **k)
+           ^^^^^^^^^^^^^^^^
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\decorator.py", line 232, in fun
+    for i, extra in enumerate(extras):
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\moviepy\decorators.py", line 135, in use_clip_fps_by_default
+    return f(clip, *new_a, **new_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\decorator.py", line 232, in fun
+    for i, extra in enumerate(extras):
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\moviepy\decorators.py", line 22, in convert_masks_to_RGB
+    return f(clip, *a, **k)
+           ^^^^^^^^^^^^^^^^
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\moviepy\video\VideoClip.py", line 300, in write_videofile
+    ffmpeg_write_video(self, filename, fps, codec,
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\moviepy\video\io\ffmpeg_writer.py", line 213, in ffmpeg_write_video
+    with FFMPEG_VideoWriter(filename, clip.size, fps, codec = codec,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\nkvch\studia\USD\venv\Lib\site-packages\moviepy\video\io\ffmpeg_writer.py", line 88, in __init__
+    '-r', '%.02f' % fps,
+          ~~~~~~~~^~~~~
+TypeError: must be real number, not NoneType
+c:\Users\nkvch\studia\USD\venv\Lib\site-packages\gymnasium\wrappers\record_video.py:94: UserWarning: [33mWARN: Overwriting existing videos at c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)
+  logger.warn(
+Evaluating and capturing videos on HalfCheetah-v4.
+reading runs\A2C_PyTorch\2023_12_10_18_37_08/policy.pt...
+-> Episode 1: 1173.180908203125 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+Evaluating and capturing videos on HalfCheetah-v4.
+reading runs\A2C_PyTorch\2023_12_10_18_37_08/policy.pt...

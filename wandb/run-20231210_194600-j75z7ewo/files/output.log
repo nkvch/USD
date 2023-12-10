@@ -1,0 +1,868 @@
+Evaluating and capturing videos on HalfCheetah-v4.
+reading runs\A2C_PyTorch\2023_12_10_18_37_08/policy.pt...
+c:\Users\nkvch\studia\USD\venv\Lib\site-packages\gymnasium\envs\registration.py:788: UserWarning: [33mWARN: The environment is being initialised with render_mode='single_rgb_array' that is not in the possible render_modes (['human', 'rgb_array', 'depth_array']).
+  logger.warn(
+c:\Users\nkvch\studia\USD\venv\Lib\site-packages\gymnasium\wrappers\record_video.py:94: UserWarning: [33mWARN: Overwriting existing videos at c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)
+  logger.warn(
+Evaluating and capturing videos on HalfCheetah-v4.
+reading runs\A2C_PyTorch\2023_12_10_18_37_08/policy.pt...
+Evaluating and capturing videos on HalfCheetah-v4.
+reading runs\A2C_PyTorch\2023_12_10_18_37_08/policy.pt...
+-> Episode 1: 1288.20556640625 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+c:\Users\nkvch\studia\USD\venv\Lib\site-packages\gymnasium\wrappers\record_video.py:94: UserWarning: [33mWARN: Overwriting existing videos at c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)
+  logger.warn(
+6.26.0
+Evaluating and capturing videos on HalfCheetah-v4.
+reading runs\A2C_PyTorch\2023_12_10_18_37_08/policy.pt...
+-> Episode 1: 1296.1646728515625 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+6.26.0
+Evaluating and capturing videos on HalfCheetah-v4.
+reading runs\A2C_PyTorch\2023_12_10_18_37_08/policy.pt...
+-> Episode 1: 1368.789306640625 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+c:\Users\nkvch\studia\USD\venv\Lib\site-packages\gymnasium\wrappers\record_video.py:94: UserWarning: [33mWARN: Overwriting existing videos at c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos folder (try specifying a different `video_folder` for the `RecordVideo` wrapper if this is not desired)
+  logger.warn(
+Evaluating and capturing videos on HalfCheetah-v4.
+reading runs\A2C_PyTorch\2023_12_10_18_37_08/policy.pt...
+-> Episode 1: 1274.08154296875 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[ 0.10371985  2.5625236   1.0524497  -8.165354   -9.960654    0.21050584]] [[-0.20755111  0.21525348  0.6210769   0.88886594  0.45474506 -1.20937048
+  -0.55980455  0.7911944   0.38748728  0.44460707 -0.6379904   1.54069193
+   0.62664252  1.92929619 -1.15139139 -0.45798044  0.00578024]]
+-> Episode 2: 1349.3135986328125 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[ -1.1176324    2.742903     1.0511547  -12.012556    -7.0706334
+   -0.06746724]] [[-0.20985727  0.03499968  0.53936661  0.81733907  0.53726449 -1.27601747
+  -0.63286298  0.78274483 -0.08403869  0.6077277  -1.20847205  1.73741802
+   0.72860361  1.75678974 -1.08726808 -0.41942129  0.77015629]]
+-> Episode 3: 1284.51025390625 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[ 0.7261288  -6.9250126  -0.13889015 13.585545   -2.3986523  -0.4710421 ]] [[-0.49016727  0.01751945  1.42932366  1.49084656  1.73008697 -1.65331694
+  -1.09691967  0.18230605  0.37975838 -1.16654552  0.35154207 -0.20913092
+   0.73242264  0.01177827  0.1357802  -0.29084758 -1.41216559]]
+-> Episode 4: 1360.5762939453125 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[ 0.37627432 -8.562051    2.733991   11.130321    3.62921    -0.19252916]] [[-0.62310068  0.07015906  1.37632392 -0.05259267  0.10240701  0.08808415
+  -1.35487831 -1.68479726 -1.5155362   0.34330204 -0.13980758  0.32321674
+  -1.63610799 -1.21617472  2.0971785   0.1601363  -0.7621253 ]]
+-> Episode 5: 1349.71435546875 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[ 1.5025349  -6.894467   -0.0700327  15.788448   -4.711514   -0.34065515]] [[-0.21484301 -0.089304    0.77900946  1.82151214  1.66225834 -1.65815049
+  -1.02101304  0.37521882  0.79522167 -2.1882967   0.37415632 -1.34809093
+   0.82731574 -0.20448054  0.1716245  -0.3303948  -0.41374332]]
+-> Episode 6: 1286.076171875 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[ 5.294626    6.454881   -0.35896906 -9.766119   -3.569159    0.3574853 ]] [[ 0.35817616  0.30326472 -1.41059302 -1.21624164 -1.22849835  0.74451335
+   0.96990966  0.48104516  0.8251412   0.45377056 -0.12294849 -0.49508049
+   0.09437736 -0.86476726  0.06415869 -0.70343366  0.16377811]]
+-> Episode 7: 1221.0654296875 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[-0.7651534   2.830094    0.81152976 -8.55477    -7.0843825   0.31153172]] [[ 0.02818226  0.29086779  0.77410275  0.94543266  0.48844014 -1.18589909
+  -0.65394473  1.28134476  0.55877152  0.66360537 -0.85703787  1.71269755
+   0.6267746   1.96553854 -1.09854587 -0.42234645  0.57772786]]
+-> Episode 8: 1340.6865234375 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[-0.28835347 -9.597918    2.987863   13.739184    3.699844    0.02218482]] [[-0.63262855  0.07516898  0.90203231  0.3862297   0.32280948  0.07041424
+  -1.46567822 -1.33211639 -1.58865298  0.88847482 -0.4886022   0.86577497
+  -1.65184979 -1.2935655   2.18298489  0.07599844 -1.68617853]]
+-> Episode 9: 1302.40966796875 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[  6.3423767   7.4282236  -0.8056113 -14.559569   -2.565618    0.5300189]] [[-0.06855481  0.34767902 -1.2108337  -0.76010846 -1.33643307  0.58541723
+   0.82210922  0.0804438   0.99638044 -0.04632122  0.46134244 -0.2857875
+  -0.41312072 -0.43750532  0.06849418 -0.65412194 -0.61847943]]
+-> Episode 10: 1381.04443359375 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[  6.298243     7.922468    -0.7555398  -15.718255    -6.3175745
+    0.41467223]] [[-0.29549171  0.20722981 -1.22151839 -0.8782555  -1.19685527  0.63621018
+   0.874956    0.15302714  0.84019109  0.08818718 -0.23760958 -0.28614291
+  -0.35518495 -0.4198799   0.14703291 -0.82251745 -0.15260454]]
+-> Episode 11: 1236.3541259765625 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[-0.5252021 -2.3248236 -0.9220932  8.712395   5.0545707 -0.3202998]] [[-0.21838512  0.22054294 -0.46115757 -0.6845861  -0.40001633  0.76441308
+   1.54248762  0.11906747  1.32559131  0.01132017 -0.52979835 -0.91091254
+   0.60292289 -1.10492741 -0.55313859 -0.49771978  1.93071403]]
+-> Episode 12: 1207.9071044921875 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[ 0.28833407 -9.488899    3.0311656  11.802201    4.482171   -0.19635236]] [[-0.5908969   0.11000852  0.87826284  0.24191161  0.51279954  0.30688252
+  -1.40989495 -1.75421834 -1.35054344  0.90622522  0.40628225  0.52362692
+  -1.96797936 -0.97459387  2.05126743 -0.10125652 -1.46958063]]
+-> Episode 13: 1287.760498046875 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[  6.572038     7.6052904   -0.7185476  -19.093416    -2.4410048
+    0.45220405]] [[-0.05980667  0.25379701 -1.3513904  -0.97496308 -1.17117108  0.65126364
+   0.84095171  1.44388036  1.03714043  0.0613319  -0.11695172 -0.41866432
+  -0.09408751 -0.74230758  0.05853946 -0.65629307  0.10139132]]
+-> Episode 14: 1316.774658203125 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[ 0.29236805  0.2062388  -0.32179376 -8.729551   -2.0605452  -0.11941817]] [[-0.27829334  0.24125089  0.77451264 -1.20906225  0.36155188  1.29428684
+   0.6799687  -2.19103147  0.11171301  0.92558539  1.07315832 -0.87149169
+  -0.73799081  0.63027119 -0.01834101  2.44355919  0.82321137]]
+-> Episode 15: 1350.86865234375 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[ 1.09139097e+00 -7.06964922e+00 -1.73514150e-03  9.47576332e+00
+  -4.12154484e+00  1.06977105e-01]] [[-0.12754039  0.00385348  0.74608121  1.73790276  1.73876603 -1.76637503
+  -0.9648934   0.42145719 -0.38211845 -1.19275624  0.46410871 -1.32808208
+   0.68649981 -0.04478134  0.25543867 -0.31917632 -1.27743258]]
+-> Episode 16: 1113.7369384765625 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[ 0.30878818 -9.086863    2.30854    11.219727    3.9912438   0.01300441]] [[-0.58002984  0.10180125  1.03545415  0.37493082 -0.14427774  0.1083217
+  -1.46326914 -1.43907062 -1.64914152  0.50079329  0.48468848  0.7099695
+  -1.94405163 -1.66070495  2.16680314  0.07982843 -2.14238534]]
+-> Episode 17: 1396.4921875 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[-0.6447734 -2.3179474 -0.3975322 11.704621   5.5931835 -0.2785915]] [[-0.18227501  0.22162474 -0.33946451 -0.41573847 -0.83346761  0.64901063
+   1.53706165  0.21361281  1.33651658  0.13865989 -0.56526344 -0.98655097
+   0.932094   -1.36212626 -0.62750144 -0.2142178   0.94099445]]
+-> Episode 18: 1351.2364501953125 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[  5.6740494   3.2094398   1.3540895 -12.020217   -6.231407    0.935121 ]] [[-0.00349557  0.2552277  -1.12774518 -0.18722282 -1.55663651  0.03012191
+   0.00665161  0.4352166   0.31763613 -0.89904941 -0.03782086  0.7885557
+   0.93282573  0.04791864 -0.9513099  -0.72540325 -0.00933534]]
+-> Episode 19: 1408.470458984375 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[-0.78141654 -2.5737934  -0.4380028  15.222656    7.206163   -0.0231611 ]] [[-0.04044664  0.28351111 -0.55896318 -0.50147059  0.18039585  0.77916352
+   1.61014636 -0.22609861  1.30790413  0.25493935 -0.42420027 -1.11507239
+   0.93880754 -0.31717596 -0.56651471 -0.30076818  1.3602222 ]]
+-> Episode 20: 1288.395263671875 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[ 0.463889   -0.27809048 -0.274374   -7.8769855  -1.4209586  -0.26210326]] [[-0.37902034  0.18291706  0.5213649  -0.97501999  0.22732714  1.2859092
+   0.78202586 -0.96156421  0.28405489  0.62485152  0.96586132 -0.76731301
+  -1.00319191  0.88891539  0.01099909  2.34141571  0.905772  ]]
+-> Episode 21: 1312.3245849609375 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[ 0.20780292 -6.61915    -0.1799863  15.320688   -3.016883   -0.07242437]] [[ 0.55547257  4.41100834  0.85889792  1.78849975  1.59938028 -1.65876401
+  -1.03080583  0.25891852  1.00801256 -1.90944205  0.56867155 -1.52106994
+   0.71724205 -0.27669632  0.20345369 -0.35888213 -0.79873894]]
+-> Episode 22: 612.610107421875 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[  5.9885783    7.091105    -0.2627295  -18.867039    -3.2720454
+    0.17380676]] [[ 0.31012696 -0.08732804 -1.37010955 -0.65188993 -1.24880032  0.67012841
+   0.82691722  0.91453389  0.98236633  0.2657116   0.457323   -0.48139852
+  -0.34777044 -0.76034814  0.04112629 -0.70636685  0.07494532]]
+-> Episode 23: 1280.1756591796875 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[-0.51707345 -7.5258827   2.3422396  10.15942     4.0187736  -0.31947643]] [[-0.75438441  3.29694534  0.69417824  0.26522188  0.21817736  0.27834581
+  -1.21760038 -1.16627841 -1.02914166 -3.2383631   0.71873891  0.34789618
+  -2.30510288 -1.38535173  2.12556156  0.26489342 -1.20452838]]
+-> Episode 24: 1169.637451171875 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[  4.9609194    3.6072912    1.1087692  -13.436686    -5.0653834
+    0.36484987]] [[ 0.22115162 -0.13359271 -0.97013519 -0.00256653 -1.19998997 -0.00265617
+  -0.11199657  0.88930877  0.20809539  0.11862738 -0.32628325  0.72521194
+   1.1277774   0.35837585 -0.77830109 -0.66277033  0.19442125]]
+-> Episode 25: 1387.0689697265625 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[-0.68675995  2.384628    1.3625933  -3.897955   -8.847976    0.26172528]] [[-0.21904075 -0.28544572  1.12403095  0.96996473  0.43782831 -1.30022951
+  -0.68568639  0.88700417 -0.46903109  0.96139661 -0.61062719  1.94213661
+   0.6328802   2.15602919 -1.20583462 -0.38824787  0.29145063]]
+-> Episode 26: 1409.4088134765625 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[-1.310758    2.669326    1.6999967  -8.625716   -6.6496506   0.30606505]] [[ 0.30148502 -0.16116064  0.71474956  0.84879382  0.53152719 -1.054374
+  -0.68675758  1.43043851  0.21211037  1.04809878 -1.33632226  1.70948608
+   0.7388618   1.90240096 -0.94392949 -0.34081128  0.45436744]]
+-> Episode 27: 1330.3680419921875 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[ 0.4070986   0.13414294  0.09777579 -9.787796   -1.7654116  -0.4477437 ]] [[-0.43812194 -0.21122403  0.64978919 -0.9230915   0.24642905  1.27810044
+   0.82858381 -2.00391206  0.35861353  0.81352104  0.70474886 -0.80191257
+  -0.73948252  0.87022971 -0.05805374  2.35434764  1.16921359]]
+-> Episode 28: 1354.3480224609375 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[ 0.22441679 -0.0691357  -0.11585668 -5.238694   -2.6517818  -0.02817796]] [[-0.39619937 -0.20170768  1.02236724 -1.30538041  0.06156402  1.27684519
+   0.50914203 -1.67711844  0.1901536   0.79980341  0.44904933 -0.63060327
+  -0.743919    0.96256603 -0.1070532   2.27479302  0.75080357]]
+-> Episode 29: 1415.94580078125 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+error [[ -1.0080442   2.4430184   0.830074  -12.889856   -5.1693416   0.5095783]] [[-0.18139534 -0.23990409  0.84028856  0.94232766  0.4122168  -1.22037692
+  -0.77011876  1.23433661 -0.33536557  1.49633326 -0.27824153  1.47775485
+   0.52852885  2.00919989 -1.06759708 -0.41360052  0.0905119 ]]
+-> Episode 30: 1419.5164794921875 returns
+Moviepy - Building video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4.
+Moviepy - Writing video c:\Users\nkvch\studia\USD\runs\A2C_PyTorch\2023_12_10_18_37_08\videos\rl-video-episode-1.mp4
+run time: 2023_12_10_20_03_06
+Commencing training of A2C_PyTorch on HalfCheetah-v4 for 10000000 timesteps.
+Results will be saved to: runs\A2C_PyTorch\2023_12_10_20_03_06
+  0%|          | 0/125000 [00:00<?, ?it/s]c:\Users\nkvch\studia\USD\venv\Lib\site-packages\numpy\core\fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+c:\Users\nkvch\studia\USD\venv\Lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 24%|██▍       | 30528/125000 [21:33<1:06:41, 23.61it/s]

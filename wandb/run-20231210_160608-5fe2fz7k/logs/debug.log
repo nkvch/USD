@@ -1,0 +1,63 @@
+2023-12-10 16:06:08,740 INFO    MainThread:25496 [wandb_setup.py:_flush():76] Current SDK version is 0.16.1
+2023-12-10 16:06:08,740 INFO    MainThread:25496 [wandb_setup.py:_flush():76] Configure stats pid to 25496
+2023-12-10 16:06:08,740 INFO    MainThread:25496 [wandb_setup.py:_flush():76] Loading settings from C:\Users\nkvch\.config\wandb\settings
+2023-12-10 16:06:08,740 INFO    MainThread:25496 [wandb_setup.py:_flush():76] Loading settings from c:\Users\nkvch\studia\USD\wandb\settings
+2023-12-10 16:06:08,741 INFO    MainThread:25496 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-12-10 16:06:08,741 INFO    MainThread:25496 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-12-10 16:06:08,741 INFO    MainThread:25496 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-12-10 16:06:08,741 INFO    MainThread:25496 [wandb_init.py:_log_setup():524] Logging user logs to c:\Users\nkvch\studia\USD\wandb\run-20231210_160608-5fe2fz7k\logs\debug.log
+2023-12-10 16:06:08,741 INFO    MainThread:25496 [wandb_init.py:_log_setup():525] Logging internal logs to c:\Users\nkvch\studia\USD\wandb\run-20231210_160608-5fe2fz7k\logs\debug-internal.log
+2023-12-10 16:06:08,742 INFO    MainThread:25496 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000025C0C792290>
+2023-12-10 16:06:08,742 INFO    MainThread:25496 [wandb_init.py:init():564] calling init triggers
+2023-12-10 16:06:08,742 INFO    MainThread:25496 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {'learning_rate': 1e-05, 'architecture': 'A2C', 'env': 'HalfCheetah-v4', 'episodes': 2000, 'gamma': 0.99, 'hid_layer': 512, 'hid_layer2': 1024, 'entropy_beta': 0.001}
+2023-12-10 16:06:08,742 INFO    MainThread:25496 [wandb_init.py:init():589] re-initializing run, found existing run on stack: iup6uxuz
+2023-12-10 16:06:08,746 INFO    MainThread:25496 [wandb_run.py:_finish():1962] finishing run enelpe/halfcheetah/iup6uxuz
+2023-12-10 16:06:08,746 INFO    MainThread:25496 [wandb_run.py:_atexit_cleanup():2202] got exitcode: 0
+2023-12-10 16:06:08,747 INFO    MainThread:25496 [wandb_run.py:_restore():2185] restore
+2023-12-10 16:06:08,747 INFO    MainThread:25496 [wandb_run.py:_restore():2191] restore done
+2023-12-10 16:06:15,274 INFO    MainThread:25496 [wandb_run.py:_footer_history_summary_info():3837] rendering history
+2023-12-10 16:06:15,277 INFO    MainThread:25496 [wandb_run.py:_footer_history_summary_info():3869] rendering summary
+2023-12-10 16:06:15,286 INFO    MainThread:25496 [wandb_run.py:_footer_sync_info():3796] logging synced files
+2023-12-10 16:06:15,620 INFO    MainThread:25496 [wandb_init.py:init():614] starting backend
+2023-12-10 16:06:15,620 INFO    MainThread:25496 [wandb_init.py:init():618] setting up manager
+2023-12-10 16:06:15,624 INFO    MainThread:25496 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2023-12-10 16:06:15,627 INFO    MainThread:25496 [wandb_init.py:init():624] backend started and connected
+2023-12-10 16:06:15,633 INFO    MainThread:25496 [wandb_run.py:_label_probe_notebook():1294] probe notebook
+2023-12-10 16:06:15,633 INFO    MainThread:25496 [wandb_run.py:_label_probe_notebook():1304] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-12-10 16:06:15,633 INFO    MainThread:25496 [wandb_init.py:init():716] updated telemetry
+2023-12-10 16:06:15,695 INFO    MainThread:25496 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2023-12-10 16:06:17,121 INFO    MainThread:25496 [wandb_run.py:_on_init():2254] communicating current version
+2023-12-10 16:06:17,557 INFO    MainThread:25496 [wandb_run.py:_on_init():2263] got version response 
+2023-12-10 16:06:17,557 INFO    MainThread:25496 [wandb_init.py:init():800] starting run threads in backend
+2023-12-10 16:06:17,746 INFO    MainThread:25496 [wandb_run.py:_console_start():2233] atexit reg
+2023-12-10 16:06:17,747 INFO    MainThread:25496 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2023-12-10 16:06:17,747 INFO    MainThread:25496 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2023-12-10 16:06:17,747 INFO    MainThread:25496 [wandb_run.py:_redirect():2178] Redirects installed.
+2023-12-10 16:06:17,749 INFO    MainThread:25496 [wandb_init.py:init():841] run started, returning control to user process
+2023-12-10 16:06:17,755 INFO    MainThread:25496 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-12-10 16:06:17,755 INFO    MainThread:25496 [wandb_init.py:_pause_backend():435] pausing backend
+2023-12-10 16:06:19,590 INFO    MainThread:25496 [wandb_init.py:_resume_backend():440] resuming backend
+2023-12-10 16:06:19,605 INFO    MainThread:25496 [wandb_setup.py:_flush():76] Current SDK version is 0.16.1
+2023-12-10 16:06:19,605 INFO    MainThread:25496 [wandb_setup.py:_flush():76] Configure stats pid to 25496
+2023-12-10 16:06:19,605 INFO    MainThread:25496 [wandb_setup.py:_flush():76] Loading settings from C:\Users\nkvch\.config\wandb\settings
+2023-12-10 16:06:19,605 INFO    MainThread:25496 [wandb_setup.py:_flush():76] Loading settings from c:\Users\nkvch\studia\USD\wandb\settings
+2023-12-10 16:06:19,605 INFO    MainThread:25496 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-12-10 16:06:19,606 INFO    MainThread:25496 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-12-10 16:06:19,606 INFO    MainThread:25496 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-12-10 16:06:19,606 INFO    MainThread:25496 [wandb_init.py:_log_setup():524] Logging user logs to c:\Users\nkvch\studia\USD\wandb\run-20231210_160619-a4448bve\logs\debug.log
+2023-12-10 16:06:19,606 INFO    MainThread:25496 [wandb_init.py:_log_setup():525] Logging internal logs to c:\Users\nkvch\studia\USD\wandb\run-20231210_160619-a4448bve\logs\debug-internal.log
+2023-12-10 16:06:19,607 INFO    MainThread:25496 [wandb_init.py:init():564] calling init triggers
+2023-12-10 16:06:19,607 INFO    MainThread:25496 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {'learning_rate': 1e-05, 'architecture': 'A2C', 'env': 'HalfCheetah-v4', 'episodes': 2000, 'gamma': 0.99, 'hid_layer': 512, 'hid_layer2': 1024, 'hid_layer3': 512, 'entropy_beta': 0.001}
+2023-12-10 16:06:19,607 INFO    MainThread:25496 [wandb_init.py:init():589] re-initializing run, found existing run on stack: 5fe2fz7k
+2023-12-10 16:06:19,609 INFO    MainThread:25496 [wandb_run.py:_finish():1962] finishing run enelpe/halfcheetah/5fe2fz7k
+2023-12-10 16:06:19,610 ERROR   MainThread:25496 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2023-12-10 16:06:19,611 INFO    MainThread:25496 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-12-10 16:06:19,611 INFO    MainThread:25496 [wandb_init.py:_jupyter_teardown():452] cleaning up jupyter logic
+2023-12-10 16:06:19,611 INFO    MainThread:25496 [wandb_run.py:_atexit_cleanup():2202] got exitcode: 0
+2023-12-10 16:06:19,611 INFO    MainThread:25496 [wandb_run.py:_restore():2185] restore
+2023-12-10 16:06:19,611 INFO    MainThread:25496 [wandb_run.py:_restore():2191] restore done
+2023-12-10 16:06:22,703 INFO    MainThread:25496 [wandb_run.py:_footer_history_summary_info():3837] rendering history
+2023-12-10 16:06:22,703 INFO    MainThread:25496 [wandb_run.py:_footer_history_summary_info():3869] rendering summary
+2023-12-10 16:06:22,707 INFO    MainThread:25496 [wandb_run.py:_footer_sync_info():3796] logging synced files

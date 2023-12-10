@@ -1,0 +1,1 @@
+{"critic_loss": NaN, "actor_loss": NaN, "entropy_loss": NaN, "loss": NaN, "total_loss": 0.0, "total_actor_loss": 0.0, "total_critic_loss": 0.0, "total_steps": 44860, "total_episodes": 44, "total_reward": NaN, "total_steps_in_episode": 860, "eps": 0.95688, "_timestamp": 1702228027.1208224, "_runtime": 134.4032814502716, "_step": 4485, "_wandb": {"runtime": 164}}

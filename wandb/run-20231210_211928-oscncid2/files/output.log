@@ -1,0 +1,67 @@
+run time: 2023_12_10_21_19_33
+Commencing training of A2C_PyTorch on HalfCheetah-v4 for 10000000 timesteps.
+Results will be saved to: runs\A2C_PyTorch\2023_12_10_21_19_33
+  0%|          | 0/125000 [00:00<?, ?it/s]c:\Users\nkvch\studia\USD\venv\Lib\site-packages\numpy\core\fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+c:\Users\nkvch\studia\USD\venv\Lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+  0%|          | 0/125000 [00:00<?, ?it/s]
+run time: 2023_12_10_21_20_17
+Commencing training of A2C_PyTorch on HalfCheetah-v4 for 10000000 timesteps.
+Results will be saved to: runs\A2C_PyTorch\2023_12_10_21_20_17
+  0%|          | 0/125000 [00:00<?, ?it/s]c:\Users\nkvch\studia\USD\venv\Lib\site-packages\numpy\core\fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+c:\Users\nkvch\studia\USD\venv\Lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  3%|▎         | 3781/125000 [01:43<55:28, 36.42it/s]

@@ -1,0 +1,152 @@
+
+run time: 2023_12_10_21_03_54
+6.26.0
+Commencing training of A2C_PyTorch on HalfCheetah-v4 for 10000000 timesteps.
+Results will be saved to: runs\A2C_PyTorch\2023_12_10_21_03_54
+  0%|          | 0/2000000 [00:00<?, ?it/s]c:\Users\nkvch\studia\USD\venv\Lib\site-packages\numpy\core\fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+c:\Users\nkvch\studia\USD\venv\Lib\site-packages\numpy\core\_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+  0%|          | 0/2000000 [00:07<?, ?it/s]
+  0%|          | 0/2000000 [00:00<?, ?it/s]
+Commencing training of A2C_PyTorch on HalfCheetah-v4 for 10000000 timesteps.
+Results will be saved to: runs\A2C_PyTorch\2023_12_10_21_03_54
+  0%|          | 0/2000000 [00:00<?, ?it/s]
+Commencing training of A2C_PyTorch on HalfCheetah-v4 for 10000000 timesteps.
+Results will be saved to: runs\A2C_PyTorch\2023_12_10_21_03_54
+Commencing training of A2C_PyTorch on HalfCheetah-v4 for 10000000 timesteps.
+Results will be saved to: runs\A2C_PyTorch\2023_12_10_21_03_54
+  0%|          | 0/2000000 [00:00<?, ?it/s]
+  0%|          | 0/2000000 [00:00<?, ?it/s]
+Commencing training of A2C_PyTorch on HalfCheetah-v4 for 10000000 timesteps.
+Results will be saved to: runs\A2C_PyTorch\2023_12_10_21_03_54
+Commencing training of A2C_PyTorch on HalfCheetah-v4 for 10000000 timesteps.
+Results will be saved to: runs\A2C_PyTorch\2023_12_10_21_03_54
+Commencing training of A2C_PyTorch on HalfCheetah-v4 for 10000000 timesteps.
+Results will be saved to: runs\A2C_PyTorch\2023_12_10_21_03_54
+  0%|          | 0/2000000 [00:00<?, ?it/s]
+  0%|          | 0/2000000 [00:00<?, ?it/s]
+  0%|          | 0/2000000 [00:00<?, ?it/s]
+Commencing training of A2C_PyTorch on HalfCheetah-v4 for 10000000 timesteps.
+Results will be saved to: runs\A2C_PyTorch\2023_12_10_21_03_54
+Commencing training of A2C_PyTorch on HalfCheetah-v4 for 10000000 timesteps.
+Results will be saved to: runs\A2C_PyTorch\2023_12_10_21_03_54
+  0%|          | 0/2000000 [00:00<?, ?it/s]
+run time: 2023_12_10_21_05_04
+Commencing training of A2C_PyTorch on HalfCheetah-v4 for 10000000 timesteps.
+Results will be saved to: runs\A2C_PyTorch\2023_12_10_21_05_04
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

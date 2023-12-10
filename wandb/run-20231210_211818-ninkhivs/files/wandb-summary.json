@@ -1,0 +1,1 @@
+{"actor_loss": 0.04012993723154068, "critic_loss": 31.014999389648438, "entropy_loss": 8.513629913330078, "mean_return": NaN, "_timestamp": 1702239558.294553, "_runtime": 59.97517013549805, "_step": 3, "_wandb": {"runtime": 8}}

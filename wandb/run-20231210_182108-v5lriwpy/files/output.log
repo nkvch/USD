@@ -1,0 +1,24 @@
+Episode: 0, steps: 1000
+Episode: 1, steps: 1000
+Episode: 2, steps: 1000
+Episode: 3, steps: 1000
+Episode: 4, steps: 1000
+Episode: 5, steps: 1000
+Episode: 6, steps: 1000
+Episode: 7, steps: 1000
+Episode: 8, steps: 1000
+Episode: 9, steps: 1000
+Episode: 10, steps: 1000
+Episode: 11, steps: 1000
+Episode: 12, steps: 1000
+Episode: 13, steps: 1000
+Episode: 14, steps: 1000
+Episode: 15, steps: 1000
+Episode: 16, steps: 1000
+Episode: 17, steps: 1000
+Episode: 18, steps: 1000
+Episode: 19, steps: 1000
+Episode: 20, steps: 1000
+Observation space: Box(-inf, inf, (17,), float64)
+Action space: Box(-1.0, 1.0, (6,), float32)
+Max episode steps: 1000

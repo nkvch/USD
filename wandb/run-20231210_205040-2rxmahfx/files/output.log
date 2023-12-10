@@ -1,0 +1,18 @@
+run time: 2023_12_10_20_51_02
+Commencing training of A2C_PyTorch on HalfCheetah-v4 for 10000000 timesteps.
+Results will be saved to: runs\A2C_PyTorch\2023_12_10_20_51_02
+  0%|          | 0/2000000 [00:00<?, ?it/s]C:\Users\nkvch\AppData\Local\Temp\ipykernel_10428\224311935.py:95: UserWarning: Using a target size (torch.Size([5])) that is different to the input size (torch.Size([25])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  critic_loss = mse_loss(td_target, td_predict)
+  0%|          | 0/2000000 [00:00<?, ?it/s]
+6.26.0
+6.26.0
+  0%|          | 0/2000000 [00:00<?, ?it/s]C:\Users\nkvch\AppData\Local\Temp\ipykernel_10428\224311935.py:95: UserWarning: Using a target size (torch.Size([5])) that is different to the input size (torch.Size([25])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  critic_loss = mse_loss(td_target, td_predict)
+  0%|          | 0/2000000 [00:00<?, ?it/s]
+Commencing training of A2C_PyTorch on HalfCheetah-v4 for 10000000 timesteps.
+Results will be saved to: runs\A2C_PyTorch\2023_12_10_20_51_02
+run time: 2023_12_10_20_54_06
+  0%|          | 0/2000000 [00:00<?, ?it/s]C:\Users\nkvch\AppData\Local\Temp\ipykernel_10428\224311935.py:95: UserWarning: Using a target size (torch.Size([5])) that is different to the input size (torch.Size([25])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  critic_loss = mse_loss(td_target, td_predict)
+  0%|          | 0/2000000 [00:00<?, ?it/s]
+Commencing training of A2C_PyTorch on HalfCheetah-v4 for 10000000 timesteps.

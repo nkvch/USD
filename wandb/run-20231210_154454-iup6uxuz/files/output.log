@@ -1,0 +1,8 @@
+
+6.26.0
+C:\Users\nkvch\AppData\Local\Temp\ipykernel_25496\3352220511.py:85: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ..\torch\csrc\utils\tensor_new.cpp:264.)
+  log_prob = self.calc_logprob(mu_v, var_v, torch.tensor(self.actions, dtype=torch.float).to(self.device))
+6.26.0
+6.26.0
+Observation space: Box(-inf, inf, (17,), float64)
+Action space: Box(-1.0, 1.0, (6,), float32)

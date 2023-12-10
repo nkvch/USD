@@ -1,0 +1,4 @@
+run time: 2023_12_10_20_48_10
+Commencing training of A2C_PyTorch on HalfCheetah-v4 for 10000000 timesteps.
+Results will be saved to: runs\A2C_PyTorch\2023_12_10_20_48_10
+  0%|          | 0/2000000 [00:00<?, ?it/s]
