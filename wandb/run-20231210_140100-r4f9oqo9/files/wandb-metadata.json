@@ -1,0 +1,52 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.11.5",
+    "heartbeatAt": "2023-12-10T13:01:02.043983",
+    "startedAt": "2023-12-10T13:01:00.769633",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/nkvch/USD.git",
+        "commit": "150a2e56799f1210e06b6fbd62b4717f1e787183"
+    },
+    "email": "nkvch.st@gmail.com",
+    "root": "C:/Users/nkvch/studia/USD",
+    "host": "nkvch",
+    "username": "nkvch",
+    "executable": "c:\\Users\\nkvch\\studia\\USD\\venv\\Scripts\\python.exe",
+    "cpu_count": 12,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2500.0,
+        "min": 0.0,
+        "max": 2500.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2500.0,
+            "min": 0.0,
+            "max": 2500.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 475.78515243530273,
+            "used": 374.98107528686523
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 31.675716400146484
+    }
+}
