@@ -13,6 +13,7 @@ from torch.nn.utils.clip_grad import clip_grad_norm_
 from torch.utils.tensorboard.writer import SummaryWriter
 from tqdm import tqdm
 import torch.multiprocessing as mp
+import wandb
 
 # %%
 class Args:
@@ -21,20 +22,22 @@ class Args:
 args = Args()
 args.env_id = "HalfCheetah-v4"
 args.total_timesteps = 10_000_000
-args.num_envs = 16
-args.num_steps = 5
-args.learning_rate = 5e-4
-args.actor_layers = [64, 64]
-args.critic_layers  = [64, 64]
+args.num_envs = 12
+args.num_steps = 2048
+args.learning_rate = 1e-5
+args.actor_layers = [128, 128]
+args.critic_layers  = [128, 128]
 args.gamma = 0.99
-args.gae = 1.0
+args.gae = 0.95
 args.value_coef = 0.5
-args.entropy_coef = 0.01
+args.entropy_coef = 0.1
 args.clip_grad_norm = 0.5
 args.seed = 0
 
-args.batch_size = int(args.num_envs * args.num_steps)
+args.batch_size = int(args.num_steps)
 args.num_updates = int(args.total_timesteps // args.batch_size)
+
+wandb.init(project="a3c", config=vars(args))
 
 # %%
 def make_env(env_id, capture_video=False, run_dir="."):
@@ -61,14 +64,13 @@ def make_env(env_id, capture_video=False, run_dir="."):
 
     return thunk
 
-# %%
 def compute_advantages(rewards, flags, values, last_value, args):
-    advantages = torch.zeros((args.num_steps, args.num_envs))
-    adv = torch.zeros(args.num_envs)
+    advantages = torch.zeros(args.num_steps)
+    adv = 0.0
 
     for i in reversed(range(args.num_steps)):
-        returns = rewards[i] + args.gamma * flags[i] * last_value
-        delta = returns - values[i]
+        Return = rewards[i] + args.gamma * flags[i] * last_value
+        delta = Return - values[i]
 
         adv = delta + args.gamma * args.gae * flags[i] * adv
         advantages[i] = adv
@@ -79,12 +81,12 @@ def compute_advantages(rewards, flags, values, last_value, args):
 
 # %%
 class RolloutBuffer:
-    def __init__(self, num_steps, num_envs, observation_shape, action_shape):
-        self.states = np.zeros((num_steps, num_envs, *observation_shape), dtype=np.float32)
-        self.actions = np.zeros((num_steps, num_envs, *action_shape), dtype=np.float32)
-        self.rewards = np.zeros((num_steps, num_envs), dtype=np.float32)
-        self.flags = np.zeros((num_steps, num_envs), dtype=np.float32)
-        self.values = np.zeros((num_steps, num_envs), dtype=np.float32)
+    def __init__(self, num_steps, observation_shape, action_shape):
+        self.states = np.zeros((num_steps, *observation_shape), dtype=np.float32)
+        self.actions = np.zeros((num_steps, *action_shape), dtype=np.float32)
+        self.rewards = np.zeros((num_steps), dtype=np.float32)
+        self.flags = np.zeros((num_steps), dtype=np.float32)
+        self.values = np.zeros((num_steps), dtype=np.float32)
 
         self.step = 0
         self.num_steps = num_steps
@@ -194,7 +196,6 @@ def worker(global_policy, global_optimizer, global_step, args, run_dir):
 
         rollout_buffer = RolloutBuffer(
             args.num_steps,
-            args.num_envs,
             env.observation_space.shape,
             env.action_space.shape,
         )
@@ -229,7 +230,6 @@ def worker(global_policy, global_optimizer, global_step, args, run_dir):
             advantages = compute_advantages(rewards, flags, values, last_value, args)
             td_target = advantages + values
 
-            # Normalize advantages
             advantages = (advantages - advantages.mean()) / (advantages.std() + 1e-8)
 
             log_probs, td_predict, entropy = local_policy.evaluate(states, actions)
@@ -239,6 +239,33 @@ def worker(global_policy, global_optimizer, global_step, args, run_dir):
             entropy_loss = entropy.mean()
 
             loss = actor_loss + args.value_coef * critic_loss - args.entropy_coef * entropy_loss
+
+            wandb.log({
+                "actor_loss": actor_loss.item(),
+                "critic_loss": critic_loss.item(),
+                "entropy_loss": entropy_loss.item(),
+                "loss": loss.item(),
+                "rewards_mean": rewards.mean(),
+                "rewards_std": rewards.std(),
+                "rewards_max": rewards.max(),
+                "rewards_min": rewards.min(),
+                "advantages_mean": advantages.mean(),
+                "advantages_std": advantages.std(),
+                "advantages_max": advantages.max(),
+                "advantages_min": advantages.min(),
+                "td_target_mean": td_target.mean(),
+                "td_target_std": td_target.std(),
+                "td_target_max": td_target.max(),
+                "td_target_min": td_target.min(),
+                "td_predict_mean": td_predict.mean(),
+                "td_predict_std": td_predict.std(),
+                "td_predict_max": td_predict.max(),
+                "td_predict_min": td_predict.min(),
+                "entropy_mean": entropy.mean(),
+                "entropy_std": entropy.std(),
+                "entropy_max": entropy.max(),
+                "entropy_min": entropy.min(),
+            })
 
             local_policy.zero_grad()
             loss.backward()
@@ -253,6 +280,10 @@ def worker(global_policy, global_optimizer, global_step, args, run_dir):
 
             if global_step.value % 100 == 0:
                 print(f"Worker {threading.get_ident()} step {global_step.value} loss {loss.item()} Last 5 rewards mean {rewards[-5:].mean()}")
+
+        # check if not created by another worker
+        # if not (run_dir / "model.pt").exists():
+        torch.save(global_policy.state_dict(), f"{run_dir}/model.pt")
     except:
         import traceback
         traceback.print_exc()
@@ -262,6 +293,7 @@ def worker(global_policy, global_optimizer, global_step, args, run_dir):
 class Worker(mp.Process):
     def __init__(self, global_policy, global_optimizer, global_step, args, run_dir):
         super().__init__()
+        print(f"Worker {self.pid} init")
         self.global_policy = global_policy
         self.global_optimizer = global_optimizer
         self.global_step = global_step
