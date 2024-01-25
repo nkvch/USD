@@ -1,0 +1,25 @@
+{
+    "env_id": "Walker2d-v4",
+    "total_timesteps": 10000000,
+    "num_envs": 8,
+    "num_steps": 500,
+    "learning_rate": 0.0001,
+    "actor_layers": [
+        64,
+        64
+    ],
+    "critic_layers": [
+        64,
+        64
+    ],
+    "hidden_size": [
+        256,
+        256
+    ],
+    "gamma": 0.99,
+    "gae": 1.0,
+    "value_coef": 0.5,
+    "entropy_coef": 0.01,
+    "clip_grad_norm": 0.5,
+    "seed": 0
+}
